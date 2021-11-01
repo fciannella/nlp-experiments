@@ -11,14 +11,16 @@ ENV APP_HOME=/app
 ENV PYTHONPATH=/app
 ENV PORT=7001
 
+COPY *.py /app/
+COPY *.txt /app
+COPY run_servers.sh /app
+RUN chmod +x /app/run_servers.sh
+
 RUN pip install -r requirements.txt
 
 RUN mkdir -p /root/.jupyter
 RUN cd /root/.jupyter && jupyter notebook --generate-config
 RUN sed -i "s/# c.NotebookApp.token = '<generated>'/c.NotebookApp.token = \'\'/" /root/.jupyter/jupyter_notebook_config.py
 
-COPY *.py /app/
-COPY run_servers.sh /app
-RUN chmod +x /app/run_servers.sh
 
 ENTRYPOINT /app/run_servers.sh
