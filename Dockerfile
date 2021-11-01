@@ -1,5 +1,6 @@
 FROM nvcr.io/nvidia/pytorch:21.05-py3
 
+ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
 RUN apt-get update
