@@ -11,7 +11,7 @@ ENV APP_HOME=/app
 ENV PYTHONPATH=/app
 ENV PORT=7001
 
-COPY *.py /app/
+# COPY *.py /app/
 COPY *.txt /app
 COPY run_servers.sh /app
 RUN chmod +x /app/run_servers.sh
