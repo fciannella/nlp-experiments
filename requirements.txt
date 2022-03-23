@@ -3,3 +3,5 @@ jupyter_contrib_nbextensions
 ipywidgets
 transformers
 Cython
+torchtext==0.12.0
+torch

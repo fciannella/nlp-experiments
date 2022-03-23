@@ -1,0 +1,170 @@
+[
+  {
+    "query_text": "Original: So now my hands are full.\nParaphrase: It's a bit of a mess.\n\nOriginal: As a first step, I have to achieve grow good crops.\nParaphrase: First and foremost, I should cultivate good crops.\n\nOriginal: I found out that all the Gamgee spare seeds have been stolen.\nParaphrase: Unfortunately, all the Gamgee spare seeds have been stolen.\n\nOriginal: I have to jump on this right away and try to achieve retrieve the seeds from the thief.\nParaphrase: There is no time to waste on this. I have to go after the thief right now.\n\nOriginal: Having said that, it is important to improve the situation with I am afraid to approach Rosie.\nParaphrase: In any event, it is vital to improve the situation with Rosie; I am not confident in approaching her.\n\nOriginal: I heard a rumor that Rosie might be exchanging letters with someone.\nParaphrase:",
+    "response_text": "Somebody told me about a rumor that Rosie might be exchanging letters with somebody.",
+    "gpt_config": {
+      "temperature": 1,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: So now my hands are full.\nParaphrase: It's a bit of a mess.\n\nOriginal: As a first step, I have to grow good crops.\nParaphrase: First and foremost, I should cultivate good crops.\n\nOriginal: I found out that all the Gamgee spare seeds have been stolen.\nParaphrase: Unfortunately, all the Gamgee spare seeds have been stolen.\n\nOriginal: I have to jump on this right away and try to retrieve the seeds from the thief.\nParaphrase: There is no time to waste on this. I have to go after the thief right now.\n\nOriginal: Having said that, it is important to improve the situation with I am afraid to approach Rosie.\nParaphrase: In any event, it is vital to improve the situation with Rosie; I am not confident in approaching her.\n\nOriginal: I saw Rosie's ex boyfriend, the Metalsmith, threatening every hobbit who even talks to Rosie.\nParaphrase: The Metalsmith, Rosie's ex, threatened every hobbit who spoke to her.\n\nOriginal: So if you could please make sure that Rosie is not back with her ex that would be a great help.\nParaphrase:",
+    "response_text": "So if you could please ensure that Rosie doesn't reunite with the Metalsmith that would be a great help.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: Because that's what friends do.\nParaphrase: Friends do things like that.\n\nOriginal: I'll put in the hard work while Sam is getting bent out of shape, trying to date Rosie.\nParaphrase: While Sam is getting bet out of shape trying to get Rosie, I'll do the hard work.\n\nOriginal: You know, that's just lame! We got to prove it to Sam, that it's lame so he doesn't get distracted further.\nParaphrase: That's lame, right? Sam needs to be told once and for all how lame it is so he doesn't get further distracted.\n\nOriginal: I heard that Rosie got a habit of grabbing a fresh pastry in the morning, so could you steal the pastries from the Tavern and frame Sam for eating all the pastries?\nParaphrase: The Tavern's Rosie frequently grabs a fresh pastry in the morning, so could you steal the pastries and frame Sam for eating all of them?\n\nOriginal: It would be right for Sam to date Rosie!\nParaphrase: It would be a good thing if Sam and Rosie got down on a date!\n\nOriginal: heard that Bilbo has appreciated the backpack Sam has gifted him.\nParaphrase:",
+    "response_text": "Sam's backpack was appreciated by Bilbo.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: Now it's our time to step up!\nParaphrase: It's now our turn to step up!\n\nOriginal: We have to make sure Pippin is on track to achieve bring some fun to the boredom of Shire's day-to-day.\nParaphrase: We must make sure Pippin is on track to make Shire's daily grind a bit more fun.\n\nOriginal: I discovered that Merry can't assist with the grand plan until rodents in his house are dealt with, so I'll do my best right away and achieve ensure that the rodents don't bother Merry again to help Pippin achieve make sure nothing stops Merry from being our accomplice.\nParaphrase: Until the rodents are removed from Merry's house, he cannot help Pippin; therefore, I will try to exterminate them as quickly as possible so that he can continue to help us.\n\nOriginal: I heard that Rosie just got robbed and we both now that Pippin should double down on his efforts to achieve make amends with Rosie.\nParaphrase: I have heard that Rosie has been robbed, and you know that Pippin needs to do everything he can to demonstrate that he is sorry for his actions.\n\nOriginal: I heard that Rosie is breaking ground on her new garden this afternoon and we both now that Pippin should double down on his efforts to achieve make amends with Rosie.\nParaphrase:",
+    "response_text": "I have heard that Rosie is beginning work on her new garden this afternoon, and you know that Pippin needs to do everything he can to demonstrate that he is sorry for his actions.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: Now it's our time to step up!\nParaphrase: It's now our turn to step up!\n\nOriginal: We have to make sure Pippin is on track to bring some fun to the boredom of Shire's day-to-day.\nParaphrase: We must make sure Pippin is on track to make Shire's daily grind a bit more fun.\n\nOriginal: I discovered that Merry can't assist with the grand plan until rodents in his house are dealt with, so I'll do my best right away and ensure that the rodents don't bother Merry again to help Pippin make sure nothing stops Merry from being our accomplice.\nParaphrase: Until the rodents are removed from Merry's house, he cannot help Pippin; therefore, I will try to exterminate them as quickly as possible so that he can continue to help us.\n\nOriginal: Because that's what friends do.\nParaphrase: Because friends help each other.\n\nOriginal: I shall ensure that Pippin succeeds in his attempts to help Rosie to retrieve her belongings.\nParaphrase: I will do my best to help Pippin, who is attempting to help Rosie get her belongings back.\n\nOriginal: I shall ensure that Pippin succeeds in his attempts to grab a little gift for Rosie's new garden.\nParaphrase:",
+    "response_text": "I will do my best to help Pippin get a little gift for Rosie's new garden.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: I heard Pippin wrote an apology letter to the Bagginses, so could you intercept the mailman at the Town Road and make the apology letter 'disappear'?\nParaphrase: I heard Pippin wrote an apology letter to the Bagginses. Could you intercept the mailman at the Town Road and make the apology letter 'disappear'?\n\nOriginal: So happy to see you, dear friend. I have news to share.\nParaphrase: It's so good to see you, dear friend. Let me tell you something.\n\nOriginal: It has been an eventful afternoon, for the Shire at least!\nParaphrase: Today has been rather eventful for the Shire!\n\nOriginal: Adalgrim Took joined me in my efforts to make sure nothing stops Merry from being our accomplice.\nParaphrase: Adalgrim Took helped me ensure Merry is our accomplice.\n\nOriginal: He confronted Shire Thief at the Outskirts of Shire and help Rosie to retrieve her belongings.\nParaphrase: He helped Rosie retrieve her belongings at the Outskirts of Shire.\n\nOriginal: He picked flowers from the Hill Top and grab a little gift for Rosie's new garden.\nParaphrase:",
+    "response_text": "He picked flowers from the Hill Top and got a little gift for Rosie's new garden.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: That's devastating - now that you achieved get turned down by Gandalf, there is no way for me to achieve make sure that Frodo can safely leave the Shire.\nParaphrase: This is very disappointing - since you were rejected by Gandalf, I don't see another way for me to ensure that Frodo will leave the Shire safely.\n\nOriginal: We achieved expose corruption amongst the Shire Councilmen and I can still make the final preparations to achieve campaign for becoming the Shire Council Member.\nParaphrase: After exposing corruption among Shire Councilmen, I can now work on the last preparations to run for Shire Council Member.\n\nOriginal: But does that mean anything, now that Gandalf told that my attempts to protect the Shire are of no use because only Frodo can protect the Shire?.\nParaphrase: However, now that Gandalf told me that my attempts to protect the Shire are useless, does that mean anything?\n\nOriginal: All I can do is to never talk to Rosie again I guess.\nParaphrase: To be honest, I think I'll just stop talking to Rosie.\n\nOriginal: All I can do is to fight the dark forces in open combat to protect my hearth I guess.\nParaphrase:",
+    "response_text": "To be honest, I think I'll just fight the dark forces in open combat to protect my family.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: I saw Rosie's ex boyfriend, the Metalsmith, threatening every hobbit who even talks to Rosie.\nParaphrase: The Metalsmith, Rosie's ex, threatened every hobbit who spoke to her.\n\nOriginal: So if you could please politely inquire if the Metalsmith plans to get back together with Rosie that would be a great help.\nParaphrase: I was wondering if you could please ask the Metalsmith if he plans to get back together with Rosie.\n\nOriginal: You can help me very much for me to make sure that Rosie is open to dating someone.\nParaphrase: It would be really helpful if you could make sure that Rosie is open to dating.\n\nOriginal: Too bad you did get punched in the face.\nParaphrase: It's a shame you got punched in the face.\n\nOriginal: To make it worse, Sam tried to retrieve the seeds from the thief, but he did be evaded.\nParaphrase: And to make things worse, Sam tried to recover the seeds from the thief, but was evaded.\n\nOriginal: Not our best moment, but thank you for trying.\nParaphrase: Not our finest moment, but thank you for trying.\n\nOriginal: We shouldn't give up, there is still a chance for me to be known as the best farmer of the Shire.\nParaphrase:",
+    "response_text": "We shouldn't give up, there is still a chance for me to be known as the best farmer in the Shire.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: You can help me very much for me to make sure that Rosie is open to dating someone.\nParaphrase: It would be really helpful if you could make sure that Rosie is open to dating.\n\nOriginal: Too bad you did get punched in the face.\nParaphrase: It's a shame you got punched in the face.\n\nOriginal: To make it worse, Sam tried to retrieve the seeds from the thief, but he did be evaded.\nParaphrase: And to make things worse, Sam tried to recover the seeds from the thief, but was evaded.\n\nOriginal: Not our best moment, but thank you for trying.\nParaphrase: Not our finest moment, but thank you for trying.\n\nOriginal: There are other ways we can help Sam to be known as the best farmer of the Shire.\nParaphrase: In my opinion, there are other ways we can help Sam become known as one of the best farmers in the Shire.\n\nOriginal: Not all is lost.\nParaphrase: We're not out of options.\n\nOriginal: So many things at once!\nParaphrase:",
+    "response_text": "There are so many things to do!",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: Did you achieve get punched and robbed?\nParaphrase: Were you punched and robbed?\n\nOriginal: Haha, you're such a dork! Why do you care about that nonsense anyway?\nParaphrase: Haha, what a dork you are! Why do you care about that nonsense in the first place?\n\nOriginal: We better focus our attention on helping Pippin achieve bring some fun to the boredom of Shire's day-to-day.\nParaphrase: It would be better if we focused on helping Pippin bring some fun to Shire's boring days.\n\nOriginal: You should've been helping Pippin to achieve make Otho rethink his plans! But you know what, Pippin managed himself.\nParaphrase: It would have been best if you had been helping Pippin to make Otho reconsider his plans! However, Pippin managed well on his own.\n\nOriginal: Now it's our time to step up!\nParaphrase: It's now our turn to step up!\n\nOriginal: We have to make sure Pippin is on track to achieve bring some fun to the boredom of Shire's day-to-day.\nParaphrase: We must make sure Pippin is on track to make Shire's daily grind a bit more fun.\n\nOriginal: I'm certain it is of significant importance for him to focus his efforts and achieve seek forgiveness of the Bagginses.\nParaphrase:",
+    "response_text": "It's very important for him to focus on making amends to the Bagginses.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: I discovered that Merry can't assist with the grand plan until rodents in his house are dealt with, so I'll do my best right away and achieve ensure that the rodents don't bother Merry again to help Pippin achieve make sure nothing stops Merry from being our accomplice.\nParaphrase: Until the rodents are removed from Merry's house, he cannot help Pippin; therefore, I will try to exterminate them as quickly as possible so that he can continue to help us.\n\nOriginal: However I discovered that Merry can't assist with the grand plan until rodents in his house are dealt with so I'm inclined to believe that Pippin will instead try to achieve ensure that the rodents don't bother Merry again, ignoring what's truly important.\nParaphrase: I found out that Merry can't help with Pippin's prank until his rodent problem is resolved. It looks like Pippin will be tending to that instead of making amends with the ones he offended, like he should.\n\nOriginal: However I discovered that Merry can't assist with the grand plan until rodents in his house are dealt with so I'm inclined to believe that Pippin will instead try to achieve ensure that the rodents don't bother Merry again, ignoring what's truly important.\nParaphrase:",
+    "response_text": "I found out that Merry can't help with Pippin's prank until his rodent problem is resolved. It looks like Pippin will be tending to that instead of making amends with the ones he offended, like he should.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  },
+  {
+    "query_text": "Original: When I tried before, I my previous prank went awfully wrong and all I did with that is me feel that my relationship with neighbors is strained, and with one in particular and me is now closely watched by the Shire council.\nParaphrase: I tried to play a prank before, but it went awfully wrong, and all I was bad blood with my neighbors. And now I can even feel the Council looking over my shoulder.\n\nOriginal: So now my hands are full.\nParaphrase: Surely I have a lot to do now.\n\nOriginal: It is important to improve the situation with me feel that my relationship with neighbors is strained, and with one in particular.\nParaphrase: I would like to improve my relationship with my neighbors, and in particular with one of them.\n\nOriginal: I heard that Rosie got robbed.\nParaphrase: One of my neighbors, Rosie, was robbed.\n\nOriginal: So if you could please distract councilman with a bribe that would be a great help.\nParaphrase: Please bribe the councilman to distract him\n\nOriginal: So if you could please protect the council to restore my good name that would be a great help.\nParaphrase:",
+    "response_text": "Please protect the Council to restore my good name.",
+    "gpt_config": {
+      "temperature": 0.75,
+      "max_tokens": 100,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "stop": [
+        "\n"
+      ]
+    }
+  }
+]
