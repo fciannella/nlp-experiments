@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:21.05-py3
+FROM nvcr.io/nvidia/pytorch:22.02-py3
 
 ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
