@@ -58,6 +58,8 @@ checkpoint_path = inject_model_parallel_rank(os.path.join(checkpoint_dir, checkp
 
 model = MegatronGPTModel.load_from_checkpoint(checkpoint_path, hparams_file=hparams_file, trainer=trainer)
 
+model.freeze()
+
 def pad_collate(batch):
     tokens, tokens_to_generate = batch[0]['data'], batch[0]['tokens_to_generate']
     compute_logprobs = batch[0]['compute_logprobs']
