@@ -1,0 +1,15 @@
+FROM nvcr.io/nvidia/tritonserver:21.07-py3
+
+RUN apt-get update
+RUN apt-get install --yes python3-dev rapidjson-dev
+RUN wget https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1-linux-x86_64.tar.gz
+RUN tar -axf cmake-3.21.1-linux-x86_64.tar.gz
+RUN export PATH=`pwd`/cmake-3.21.1-linux-x86_64/bin/:$PATH
+# Needed for client and token conversion:
+RUN pip3 install tritonclient[all] fire regex
+
+RUN git clone https://gitlab-master.nvidia.com/bhsueh/fastertransformer_backend -b dev-gptj
+RUN git clone https://gitlab-master.nvidia.com/zehuanw/FasterTransformer        -b v5.0-dev-gptj
+RUN git clone https://github.com/triton-inference-server/server.git # We need some tools when we test this backend
+RUN ln -s server/qa/common .
+
