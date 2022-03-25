@@ -86,7 +86,7 @@ request.append(prompt)
 
 tokens_to_generate = 100
 compute_logprobs = True
-batch_size = 8
+batch_size = 1
 
 dataset = GPTRequestDataset(request, model.tokenizer, tokens_to_generate, compute_logprobs)
 request_dl = DataLoader(dataset=pad_collate(dataset), batch_size=int(batch_size))
