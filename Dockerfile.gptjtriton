@@ -8,11 +8,3 @@ RUN export PATH=`pwd`/cmake-3.21.1-linux-x86_64/bin/:$PATH
 # Needed for client and token conversion:
 RUN pip3 install tritonclient[all] fire regex
 
-RUN git config --global user.name "John Doe"
-RUN git config --global user.email johndoe@example.com
-RUN git config --global user.name "Francesco"
-RUN git clone https://gitlab-master.nvidia.com/bhsueh/fastertransformer_backend -b dev-gptj
-RUN git clone https://gitlab-master.nvidia.com/zehuanw/FasterTransformer        -b v5.0-dev-gptj
-RUN git clone https://github.com/triton-inference-server/server.git # We need some tools when we test this backend
-RUN ln -s server/qa/common .
-
