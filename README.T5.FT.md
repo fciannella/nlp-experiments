@@ -23,6 +23,7 @@ We can build the triton server with the fastertransformer backend now
 
 ```
 cd ${WORKSPACE}
+git clone https://huggingface.co/t5-3b
 git clone https://github.com/triton-inference-server/fastertransformer_backend
 git clone https://github.com/triton-inference-server/server.git 
 git clone https://github.com/NVIDIA/FasterTransformer.git
