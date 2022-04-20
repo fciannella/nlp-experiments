@@ -75,6 +75,7 @@ python3 ${WORKSPACE}/FasterTransformer/examples/pytorch/gptj/utils/gptj_ckpt_con
 #### Convert the weights inside the triton docker container
 
 ```
+cd /mnt/nvdl/usr/fciannella/src/triton-ft-gpt-j
 docker run -ti -d --gpus all -v `pwd`:`pwd` --name triton-convert-weights ${TRITON_DOCKER_IMAGE} 
 docker exec -ti triton-convert-weights /bin/bash
 ```
