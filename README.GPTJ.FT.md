@@ -154,8 +154,7 @@ As you can see we are pointing the configuratin to the place where we had conver
 We can now finally run the tritonserver and everything will come up
 
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 mpirun -n 1 --allow-run-as-root /opt/tritonserver/bin/tritonserver  --model-repository=/ft_workspace/fastertransformer_backend/all_models/gptj/
- 
+CUDA_VISIBLE_DEVICES=0,1,2,3 mpirun -n 1 --allow-run-as-root /opt/tritonserver/bin/tritonserver  --model-repository=/ft_workspace/fastertransformer_backend/all_models/gptj/ & 
 ```
 
 In the above command the -n is the number of nodes and it should be 1 if we have one node, even if we have multiple GPUs on that node.
