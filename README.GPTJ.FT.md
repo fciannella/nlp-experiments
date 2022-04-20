@@ -162,3 +162,11 @@ In the above command the -n is the number of nodes and it should be 1 if we have
 
 ### Testing the model
 
+This command will run an end to end test:
+
+```
+python3 /ft_workspace/fastertransformer_backend/tools/end_to_end_test.py
+```
+
+If you want to try your own prompt, you can edit the end_to_end_test.py file
+
