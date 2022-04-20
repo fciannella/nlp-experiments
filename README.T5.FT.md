@@ -1,4 +1,4 @@
-# GPT-J on FT+Triton
+# T5 on FT+Triton
 
 ## Introduction
 
