@@ -2,11 +2,11 @@
 
 ## Introduction
 
-First of all we need to prepare a triton image that contains the FT as a backend. After that we can work on the GPT-J model.
+First of all we need to prepare a triton image that contains the FT as a backend. After that we can work on the T5 model.
 
 ### Build the tritonserver container with the ft backend
 
-We will do all the work into a working directory, initially empty, which we will call the WORKSPACE directory. In this case I will use the "triton-ft-gpt-j" directory.
+We will do all the work into a working directory, initially empty, which we will call the WORKSPACE directory. In this case I will use the "triton-ft-t5" directory.
 
 ```
 mkdir /mnt/nvdl/usr/fciannella/src/triton-ft-t5
@@ -116,9 +116,7 @@ Normally you would think that one just needs to point the tritonserver to the mo
 docker run -it --rm --shm-size=1g --ulimit memlock=-1 --ulimit stack=67108864  --gpus=all -v ${WORKSPACE}:/ft_workspace ${TRITON_DOCKER_IMAGE} bash
 ```
 
-This will land you into the triton container. 
-
-In this container, go to the directory "/ft_workspace/fastertransformer_backend/all_models/gptj/". This is a directory that comes with the fastertransformer_backend repository and it is not the model_store we created and where we put the gpt-j weights. So it's a bit of a convoluted process, as we will point the triton server to this directory.
+This will land you into the triton container.
 
 #### Adjust the config.pbtxt file
 
