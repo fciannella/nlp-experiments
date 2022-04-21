@@ -1,0 +1,16 @@
+FROM nvcr.io/nvidia/pytorch:21.07-py3
+
+WORKDIR /app/llm-clients
+
+COPY *.txt /app/llm-clients/
+COPY *.sh /app/llm-clients/
+
+RUN pip install -r t5_requirement.txt
+
+RUN chmod +x /app/llm-clients/run_servers.sh
+
+RUN mkdir -p /root/.jupyter
+RUN cd /root/.jupyter && jupyter notebook --generate-config
+RUN sed -i "s/# c.NotebookApp.token = '<generated>'/c.NotebookApp.token = \'\'/" /root/.jupyter/jupyter_notebook_config.py
+
+ENTRYPOINT /app/llm-clients/run_servers.sh

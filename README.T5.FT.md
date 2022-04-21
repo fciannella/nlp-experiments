@@ -77,6 +77,8 @@ cd /mnt/nvdl/usr/fciannella/src/triton-ft-t5/
 export WORKSPACE=$(pwd)
 export SRC_MODELS_DIR=${WORKSPACE}/models
 export TRITON_MODELS_STORE=${WORKSPACE}/triton-model-store
+export CONTAINER_VERSION=22.03
+export TRITON_DOCKER_IMAGE=triton_with_ft:${CONTAINER_VERSION}
 pip install -r ${WORKSPACE}/fastertransformer_backend/tools/t5_utils/t5_requirement.txt
 ```
 
@@ -114,7 +116,14 @@ exit
 Normally you would think that one just needs to point the tritonserver to the model store, but in this case it is not as simple. There are a few steps. First of all let's start the triton container with the FT backend that we build previously
 
 ```
-docker run -it --rm --shm-size=1g --ulimit memlock=-1 --ulimit stack=67108864  --gpus=all -v ${WORKSPACE}:/ft_workspace ${TRITON_DOCKER_IMAGE} bash
+cd /mnt/nvdl/usr/fciannella/src/triton-ft-t5/
+export WORKSPACE=$(pwd)
+export SRC_MODELS_DIR=${WORKSPACE}/models
+export TRITON_MODELS_STORE=${WORKSPACE}/triton-model-store
+export CONTAINER_VERSION=22.03
+export TRITON_DOCKER_IMAGE=triton_with_ft:${CONTAINER_VERSION}
+
+docker run -it --rm --shm-size=1g --ulimit memlock=-1 --ulimit stack=67108864 -p 0.0.0.0:8000:8000 -p 0.0.0.0:8001:8001 -p 0.0.0.0:8002:8002 --gpus=all -v ${WORKSPACE}:/ft_workspace ${TRITON_DOCKER_IMAGE} bash
 ```
 
 This will land you into the triton container.

@@ -1,0 +1,10 @@
+torch
+transformers
+huggingface_hub
+tokenizers
+SentencePiece
+sacrebleu
+tritonclient[all]
+jupyter
+jupyter_contrib_nbextensions
+ipywidgets
