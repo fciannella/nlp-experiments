@@ -46,9 +46,6 @@ TBD
 We now need to create the model store with gpt-j. This means that we need to download gpt-j and convert its weigths so that they are compatible with FT, and place them in the proper directory that will be mounted inside the docker container we created above.
 
 ```
-export WORKSPACE=$(pwd)
-export SRC_MODELS_DIR=${WORKSPACE}/models
-export TRITON_MODELS_STORE=${WORKSPACE}/triton-model-store
 cd ${WORKSPACE}
 git clone https://github.com/NVIDIA/FasterTransformer.git # Used for convert the checkpoint and triton output
 wget https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-vocab.json -P models
@@ -68,7 +65,7 @@ If you have all the libraries ready in your host VM then you can now simply run 
 ```
 python3 ${WORKSPACE}/FasterTransformer/examples/pytorch/gptj/utils/gptj_ckpt_convert.py \
         --output-dir ${TRITON_MODELS_STORE}/fastertransformer/1 \
-        --ckpt-dir ${WORKSPACE}/step_383500/ \
+        --ckpt-dir ${SRC_MODELS_DIR}/step_383500/ \
         --n-inference-gpus 4
 ```
 
@@ -97,7 +94,7 @@ Finally we can convert the weights:
 ```
 python3 ${WORKSPACE}/FasterTransformer/examples/pytorch/gptj/utils/gptj_ckpt_convert.py \
         --output-dir ${TRITON_MODELS_STORE}/fastertransformer/1 \
-        --ckpt-dir ${WORKSPACE}/step_383500/ \
+        --ckpt-dir ${SRC_MODELS_DIR}/step_383500/ \
         --n-inference-gpus 4
 ```
 
